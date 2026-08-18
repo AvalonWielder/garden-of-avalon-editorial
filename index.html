@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Garden of Avalon — photographies de villes, de lumière et de détails." />
+    <title>Garden of Avalon — Selected works</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Garden of Avalon, accueil">GOA</a>
+      <p class="topbar-note">Photographic notes · 2022—2026</p>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-menu">Index</button>
+    </header>
+
+    <main id="top">
+      <section class="intro" aria-labelledby="site-title">
+        <p class="eyebrow">Garden of Avalon</p>
+        <h1 id="site-title">A record of <em>quiet encounters</em> with the city.</h1>
+        <p class="intro-copy">Photographies de lumière, d’architecture et de ce qui persiste entre les deux.</p>
+      </section>
+
+      <nav class="site-menu" id="site-menu" aria-label="Collections">
+        <a href="#recent">Recent work <span>01</span></a>
+        <a href="#collections">Collections <span>02</span></a>
+        <a href="#about">About <span>03</span></a>
+      </nav>
+
+      <section class="recent" id="recent" aria-labelledby="recent-title">
+        <div class="section-head">
+          <p id="recent-title" class="eyebrow">Recent work</p>
+          <p class="section-meta">A short selection · <span id="recent-count"></span> photographs</p>
+        </div>
+        <div class="editorial-grid" id="recent-grid"></div>
+      </section>
+
+      <section class="collections" id="collections" aria-labelledby="collections-title">
+        <div class="section-head">
+          <p id="collections-title" class="eyebrow">Collections</p>
+          <p class="section-meta">Fragments organised by attention</p>
+        </div>
+        <div class="collection-list" id="collection-list"></div>
+      </section>
+
+      <section class="about" id="about">
+        <p class="eyebrow">A small archive</p>
+        <p>Garden of Avalon is a personal photographic archive. Its subject is not a place, but a way of looking: façades, gardens, twilight and the accidental theatre of a city.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Garden of Avalon</p>
+      <p>© <span id="year"></span></p>
+    </footer>
+
+    <dialog class="lightbox" id="lightbox">
+      <button class="close" type="button" aria-label="Fermer">×</button>
+      <button class="previous" type="button" aria-label="Photo précédente">←</button>
+      <figure>
+        <img id="lightbox-image" src="" alt="" />
+        <figcaption id="lightbox-caption"></figcaption>
+      </figure>
+      <button class="next" type="button" aria-label="Photo suivante">→</button>
+    </dialog>
+
+    <script src="js/gallery.js"></script>
+  </body>
+</html>
