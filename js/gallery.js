@@ -19,6 +19,11 @@ const photos = [
   { file: "20220910-_DSC4599.jpg", collection: "Between steel & sky", date: "2022-09-10", caption: "Study 18" },
   { file: "20220910-_DSC4598.jpg", collection: "Between steel & sky", date: "2022-09-10", caption: "Study 19" },
   { file: "20220910-_DSC4597.jpg", collection: "Between steel & sky", date: "2022-09-10", caption: "Study 20" },
+  { file: "20220910-_DSC4596.jpg", collection: "Between steel & sky", date: "2022-09-10", caption: "Study 21" },
+  { file: "20220910-_DSC4595.jpg", collection: "Between steel & sky", date: "2022-09-10", caption: "Study 22" },
+  { file: "20220910-_DSC4592.jpg", collection: "Between steel & sky", date: "2022-09-10", caption: "Study 23" },
+  { file: "20220910-_DSC4591.jpg", collection: "Between steel & sky", date: "2022-09-10", caption: "Study 24" },
+  { file: "20220910-_DSC4587.jpg", collection: "Between steel & sky", date: "2022-09-10", caption: "Study 25" },
   { file: "20220911-_DSC4651.jpg", collection: "Weather studies", date: "2022-09-11", caption: "Study 01" },
   { file: "20220911-_DSC4646.jpg", collection: "Weather studies", date: "2022-09-11", caption: "Study 02" },
   { file: "20220910-_DSC4635.jpg", collection: "Weather studies", date: "2022-09-10", caption: "Study 03" },
@@ -39,6 +44,10 @@ const photos = [
   { file: "20220911-_DSC4661.jpg", collection: "On the street", date: "2022-09-11", caption: "Study 06" },
   { file: "20220911-_DSC4658.jpg", collection: "On the street", date: "2022-09-11", caption: "Study 07" },
   { file: "20220910-_DSC4631.jpg", collection: "On the street", date: "2022-09-10", caption: "Study 08" },
+  { file: "20220910-_DSC4612.jpg", collection: "On the street", date: "2022-09-10", caption: "Study 09" },
+  { file: "20220910-_DSC4611.jpg", collection: "On the street", date: "2022-09-10", caption: "Study 10" },
+  { file: "20220910-_DSC4608.jpg", collection: "On the street", date: "2022-09-10", caption: "Study 11" },
+  { file: "20220910-_DSC4606.jpg", collection: "On the street", date: "2022-09-10", caption: "Study 12" },
   { file: "20220910-_DSC4620.jpg", collection: "Painted walls", date: "2022-09-10", caption: "Study 01" },
   { file: "20220910-_DSC4605.jpg", collection: "Painted walls", date: "2022-09-10", caption: "Study 02" },
   { file: "20220910-_DSC4604.jpg", collection: "Painted walls", date: "2022-09-10", caption: "Study 03" },
@@ -49,6 +58,8 @@ const photos = [
   { file: "20220911-_DSC4639.jpg", collection: "Old stone & rooms", date: "2022-09-11", caption: "Study 05" },
   { file: "20220911-_DSC4637.jpg", collection: "Old stone & rooms", date: "2022-09-11", caption: "Study 06" },
   { file: "20220910-_DSC4616.jpg", collection: "Old stone & rooms", date: "2022-09-10", caption: "Study 07" },
+  { file: "20220910-_DSC4615.jpg", collection: "Old stone & rooms", date: "2022-09-10", caption: "Study 08" },
+  { file: "20220910-_DSC4593.jpg", collection: "Old stone & rooms", date: "2022-09-10", caption: "Study 09" },
 ];
 
 const imagePath = (file) => `photos/${file}`;
